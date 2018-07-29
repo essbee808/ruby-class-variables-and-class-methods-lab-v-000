@@ -36,7 +36,7 @@ class Song
    @@genres = @@genres.sort_by {|item, amount| item.length}
    
    @@genres.each do |item, amount|
-     
+     genre_hash
   end
 
 end
