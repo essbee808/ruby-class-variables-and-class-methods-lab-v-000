@@ -28,7 +28,7 @@ class Song
     @@genres.uniq
   end
   
-  def self.genre_count(genre)
+  def self.genre_count
    
     hash = Hash[@@genres.sort.collect {|item| [item, ] } ]
   
