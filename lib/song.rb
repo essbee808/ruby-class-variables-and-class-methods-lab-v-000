@@ -35,5 +35,6 @@ class Song
       genre.group_by {|value| value}
   end 
   end
+end
 
 end
