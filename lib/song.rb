@@ -29,7 +29,7 @@ class Song
   end
   
   def self.genre_count
-   @@genres.group_by do ||
+   @@genres.group_by do |genre|
       
   end
 
