@@ -35,7 +35,7 @@ class Song
     
    names = ["Jason", "Jason", "Teresa", "Judah", "Michelle", "Judah", "Judah", "Allison"]
     counts = Hash.new(0)
-    @@genres.each { |genre| counts[name] += 1 }
+    @@genres.each { |genre| counts[@@genres] += 1 }
   end
   
   
