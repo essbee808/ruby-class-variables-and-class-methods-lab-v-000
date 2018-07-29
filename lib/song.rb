@@ -30,8 +30,8 @@ class Song
   end
   
   def self.genre_count
-    histogram = Hash.new
-    @@genres.each {|genre,count| histogram[genre] << count }
+    keys => names of each genre
+    values 
   end
   
   
