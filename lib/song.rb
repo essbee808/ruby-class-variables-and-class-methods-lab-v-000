@@ -33,6 +33,6 @@ class Song
    @@genres.each do |value|
      value
   end
-end
+  end
 
 end
