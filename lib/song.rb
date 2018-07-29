@@ -29,8 +29,10 @@ class Song
     @@genres.uniq
   end
   
+  def to_histogram
+  
   def self.genre_count
-   @@genres.group_by {|h, x| h[x] += 1; h}
+   @@genres
     
   end
 
