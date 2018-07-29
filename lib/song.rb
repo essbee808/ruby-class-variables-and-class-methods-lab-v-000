@@ -32,7 +32,7 @@ class Song
   def self.genre_count
    @@genres.each do |genre|
     if @@genres.include?(genre)
-     @ @genre.group_by {|value| value}
+      @@genre.group_by {|value| value}
   end 
   end
 end
