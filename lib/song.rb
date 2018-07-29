@@ -1,5 +1,5 @@
 class Song
-  attr_accessor :name, :artist
+  attr_accessor :name, :artist, :genre
   attr_reader :genre
   
   # class variables
@@ -33,6 +33,7 @@ class Song
    
     hash = Hash[@@genres.sort.collect {|item| [item, ] } ]
     if @genre == genre
+      
   end
 
 end
