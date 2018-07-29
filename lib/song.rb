@@ -30,8 +30,10 @@ class Song
   end
   
   def self.genre_count
-    keys => names of each genre
-    values => number of songs that have that genre
+    #keys => names of each genre
+    #values => number of songs that have that genre
+    
+    
   end
   
   
