@@ -30,9 +30,9 @@ class Song
   end
   
   def self.genre_count
-   @@genres.group_by do |value|
-     value
-  end
+    histogram = Hash.new { |h,k| h[k] = [] }   # hash that defaults values
+    # to empty Arrays
+ages.each {|name,age| histogram[age] << name }
   end
 
 end
