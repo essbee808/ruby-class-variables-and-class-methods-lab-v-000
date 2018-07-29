@@ -33,7 +33,7 @@ class Song
     #keys => names of each genre
     #values => number of songs that have that genre
     
-    
+    genre
   end
   
   
