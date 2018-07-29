@@ -29,7 +29,7 @@ class Song
     @@genres.uniq
   end
   
-  def self.genre_count
+  def self.genre_count(genre)
    
     hash = Hash[@@genres.sort.collect {|item| [item, ] } ]
     if @genre == genre
