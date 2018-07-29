@@ -29,12 +29,8 @@ class Song
     @@genres.uniq
   end
   
-  def to_histogram
-    inject(Hash.new(0)) { |h, x| h[x] += 1; h}
-  end
-  
   def self.genre_count
-   @@genres.to_histogram
+   @@genres.
     
   end
 
