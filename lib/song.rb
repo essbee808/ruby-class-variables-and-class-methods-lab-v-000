@@ -33,7 +33,6 @@ class Song
     #keys => names of each genre
     #values => number of songs that have that genre
     
-   names = ["Jason", "Jason", "Teresa", "Judah", "Michelle", "Judah", "Judah", "Allison"]
     counts = Hash.new(0)
     @@genres.each { |genre| counts[@@genres] += 1 }
   end
