@@ -34,7 +34,7 @@ class Song
     #values => number of songs that have that genre
     
     @@genres.group_by {|key| key}
-    @@genres.group_by {|value| value}
+    @@genres.group_by {|value| value.count}
   end
   
   
