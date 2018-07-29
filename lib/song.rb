@@ -5,7 +5,7 @@ class Song
   @@count = 0
   @@artists = []
   @@genres = []
-  @@genre_hash = {}
+  
   
   def initialize(name, artist, genre)
     @name = name
@@ -33,7 +33,8 @@ class Song
     #keys => names of each genre
     #values => number of songs that have that genre
     
-    @genre 
+    @genres.each_with_object(Hash.new(0)) {|genre, hash|
+    names.each_with_object(Hash.new(0)) { |name, hash| hash[name] += 1 }
   end
   
   
