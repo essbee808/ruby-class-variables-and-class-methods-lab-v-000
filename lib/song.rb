@@ -31,7 +31,7 @@ class Song
   
   def self.genre_count
     keys => names of each genre
-    values 
+    values => number of songs that have that genre
   end
   
   
