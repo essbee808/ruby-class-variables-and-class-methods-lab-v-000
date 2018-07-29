@@ -33,5 +33,7 @@ class Song
     histogram = Hash.new
     @@genres.each {|genre,count| histogram[genre] << count }
   end
+  
+  
 
 end
