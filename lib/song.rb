@@ -30,8 +30,7 @@ class Song
   end
   
   def self.genre_count
-    histogram = Hash.new { |h,k| h[k] = [] }   # hash that defaults values
-    # to empty Arrays
+    histogram = Hash.new { |h,k| h[k] = [] }   # hash that defaults values to empty Arrays
 ages.each {|name,age| histogram[age] << name }
   end
 
