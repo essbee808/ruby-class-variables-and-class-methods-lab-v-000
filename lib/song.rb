@@ -33,7 +33,8 @@ class Song
     #keys => names of each genre
     #values => number of songs that have that genre
     
-    @@genres.group_by {|key| }
+    @@genres.group_by {|key| key}
+    @@genres.group_by {|value| value}
   end
   
   
