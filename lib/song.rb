@@ -1,6 +1,5 @@
 class Song
   attr_accessor :name, :artist, :genre
-  attr_reader :genre
   
   # class variables
   @@count = 0
@@ -32,7 +31,7 @@ class Song
   def self.genre_count(genre)
    
     hash = Hash[@@genres.sort.collect {|item| [item, ] } ]
-    if @genre == genre
+  
       
   end
 
