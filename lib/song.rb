@@ -33,8 +33,8 @@ class Song
     #keys => names of each genre
     #values => number of songs that have that genre
     
-    @genres.each_with_object(Hash.new(0)) {|genre, hash| hash[genre] += 1
-    names.each_with_object(Hash.new(0)) { |name, hash| hash[name] += 1 }
+    @genres.each_with_object(Hash.new(0)) {|genre, hash| hash[genre] += 1}
+    #names.each_with_object(Hash.new(0)) { |name, hash| hash[name] += 1 }
   end
   
   
