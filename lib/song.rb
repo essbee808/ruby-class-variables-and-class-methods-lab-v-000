@@ -30,7 +30,7 @@ class Song
   end
   
   def self.genre_count
-   @@genres.group_by {|h, x| value}
+   @@genres.group_by {|h, x| h[x] += 1; h}
     
   end
 
