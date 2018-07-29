@@ -34,7 +34,7 @@ class Song
     #values => number of songs that have that genre
     
     counts = Hash.new(0)
-    @@genres.each { |genre| counts[genre] += 1 }
+    @@genres.each { |genre| counts[genre] += 1}
   end
   
   
