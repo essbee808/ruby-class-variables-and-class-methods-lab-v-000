@@ -31,7 +31,9 @@ class Song
   def self.genre_count
    genre_hash = Hash.new(0)
    
-   @@genre.each {|item| genre_hash(item)}
+   @@genre.each {|item| genre_hash(item) += 1}
+   
+   @@genre = @@genre.sort_by {|item, amount| item.length}
   end
 
 end
