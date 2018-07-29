@@ -32,7 +32,7 @@ class Song
   def self.genre_count
    
     hash = Hash[@@genres.sort.collect {|item| [item, ] } ]
-    @@genres[item] = 
+    if @genre == genre
   end
 
 end
